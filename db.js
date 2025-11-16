@@ -2,7 +2,8 @@ import { MongoClient } from 'mongodb'
 
 let isDbConnected = null;
 
-const CLUSTER_URL = "mongodb+srv://Deepak:deepak1765@cluster0.a2nvfak.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const CLUSTER_URL ="mongodb+srv://Deepak:deepak1765@cluster0.a2nvfak.mongodb.net/todoDB?retryWrites=true&w=majority";
+
 const client = new MongoClient(CLUSTER_URL)
 
 // async make a function asynchronous, we can use await
